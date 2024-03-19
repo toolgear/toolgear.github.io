@@ -1,0 +1,13 @@
+body {
+    color: #dddddd;
+    background-color: #222222;
+    font-size: 28px;
+}
+
+a {
+    color: #ff8800;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+}

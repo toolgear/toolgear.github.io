@@ -8,6 +8,15 @@ a {
     color: #ff8800;
 }
 
+h3 {
+  font-size: 20px;
+}
+
+p {
+font-size: 14px;
+}
+
+
 input[type="checkbox"] {
     transform: scale(1.5);
 }

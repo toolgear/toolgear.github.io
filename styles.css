@@ -4,6 +4,10 @@ body {
     font-size: 28px;
 }
 
+nav {
+  background-color: #111111;
+}
+
 nav a {
   font-size: 12px;
 }

@@ -4,6 +4,10 @@ body {
     font-size: 28px;
 }
 
+nav a {
+  font-size: 12px;
+}
+
 a {
     color: #ff8800;
 }

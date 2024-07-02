@@ -6,13 +6,15 @@ body {
 
 nav {
   background-color: #111111;
-  height: 16px;
+  height: 20px;
   padding: 0px;
   margin: 0px;
 }
 
 nav a {
   font-size: 12px;
+  padding: 0px;
+  margin: 0px;
 }
 
 a {

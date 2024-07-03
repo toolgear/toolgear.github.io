@@ -7,7 +7,7 @@ body {
 nav {
     background-color: #111111;
     height: 30px;
-    padding: 0;
+    padding: 0 10px; /* Add padding to give some space inside the nav */
     margin: 0;
     display: flex;
     align-items: center; /* Centers the items vertically */
@@ -16,17 +16,15 @@ nav {
 
 nav a {
     font-size: 12px;
-    padding: 0 10px; /* Adjust padding as needed for spacing between links */
-    margin: 0;
     text-decoration: none; /* Optional: Remove underline from links */
     color: #ff8800; /* Optional: Set link color */
 }
 
 #status {
     font-size: 10px;
-    margin-right: 10px; /* Adjust to position the status */
     color: #ff8800; /* Optional: Set status color */
 }
+
 
 
 a {

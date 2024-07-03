@@ -7,25 +7,23 @@ body {
 nav {
     background-color: #111111;
     height: 30px;
-    padding: 0 10px; /* Add padding to give some space inside the nav */
+    padding: 0 10px;
     margin: 0;
     display: flex;
-    align-items: center; /* Centers the items vertically */
-    justify-content: space-between; /* Distributes space between items */
+    align-items: center;
+    justify-content: space-between;
 }
 
 nav a {
     font-size: 12px;
-    text-decoration: none; /* Optional: Remove underline from links */
-    color: #ff8800; /* Optional: Set link color */
+    text-decoration: none;
+    color: #ff8800;
 }
 
 #status {
     font-size: 10px;
-    color: #ff3333; /* Optional: Set status color */
+    color: #ff3333;
 }
-
-
 
 a {
     color: #ff8800;

@@ -1,3 +1,3 @@
 $(document).ready(function(){
-  $('body').text('Hello World');
+  $('#status').text('online');
 });

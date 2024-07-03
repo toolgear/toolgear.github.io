@@ -5,30 +5,28 @@ body {
 }
 
 nav {
-  background-color: #111111;
-  height: 30px;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center; /* Centers the links horizontally */
-  align-items: center;     /* Centers the links vertically */
+    background-color: #111111;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center; /* Centers the links vertically */
 }
 
 nav a {
-  font-size: 12px;
-  padding: 0 10px; /* Adjust padding as needed for spacing between links */
-  margin: 0;
-  position: relative;
-  top: 0;
-  left: 0;
-  text-decoration: none; /* Optional: Remove underline from links */
-  color: white; /* Optional: Set link color */
+    font-size: 12px;
+    padding: 0 10px; /* Adjust padding as needed for spacing between links */
+    margin: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    text-decoration: none; /* Optional: Remove underline from links */
+    color: #ff8800; /* Optional: Set link color */
 }
 
-
 #status {
-  float: right;
-  font-size: 10px;
+    float: right;
+    font-size: 10px;
 }
 
 a {
@@ -36,13 +34,12 @@ a {
 }
 
 h3 {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 p {
-font-size: 14px;
+    font-size: 14px;
 }
-
 
 input[type="checkbox"] {
     transform: scale(1.5);

@@ -1,4 +1,3 @@
 $(document).ready(function(){
-  $('#status').text('online').color("#33ff33");
-  
+  $('#status').text('online').css("color", "#33ff33");
 });

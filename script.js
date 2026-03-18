@@ -48,3 +48,8 @@ if (document.readyState === 'loading') {
 } else {
   setTimeout(initializeCheckboxes, 50);
 }
+
+// Back to top functionality
+document.getElementById('back-to-top')?.addEventListener('click', function() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});

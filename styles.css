@@ -1,42 +1,61 @@
-body {
-    color: #dddddd;
-    background-color: #222222;
-    font-size: 28px;
+.task-list {
+  list-style: none;
+  padding: 0;
 }
 
-nav {
-    background-color: #111111;
-    height: 30px;
-    padding: 0 10px;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.task-list li {
+  margin: 8px 0;
 }
 
-nav a {
-    font-size: 12px;
-    text-decoration: none;
-    color: #ff8800;
+.task-list input[type="checkbox"] {
+  margin-right: 10px;
 }
 
-#status {
-    font-size: 10px;
-    color: #ff3333;
+.save-status {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: 1000;
 }
 
-a {
-    color: #ff8800;
+.save-status.show {
+  opacity: 1;
 }
 
-h3 {
-    font-size: 20px;
+.markdown ul {
+  list-style-type: none;
+  padding-left: 20px;
 }
 
-p {
-    font-size: 14px;
+.markdown ul li {
+  margin: 8px 0;
 }
 
-input[type="checkbox"] {
-    transform: scale(1.5);
+.markdown ul li input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.markdown ul li input[type="checkbox"]:hover {
+  transform: scale(1.2);
+}
+
+.markdown hr {
+  margin: 30px 0;
+  border: none;
+  border-top: 2px dashed #ccc;
+}
+
+.markdown h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #333;
 }
